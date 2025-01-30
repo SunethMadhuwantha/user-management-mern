@@ -1,0 +1,26 @@
+ /* Nav.css */
+
+.home-ul {
+    list-style-type: none; /* Remove bullet points */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Make the list items align horizontally */
+    background-color: #5850c2; /* Navbar background color */
+  }
+  
+  .home-li {
+    margin: 0 50px; /* Space between items */
+  }
+  
+  .home-li h1 {
+    color: rgb(227, 223, 223); /* Text color */
+    font-size: 18px; /* Font size */
+    margin: 0; /* Remove default margins */
+    cursor: pointer; /* Change cursor to pointer on hover */
+  }
+  
+  .home-li h1:hover {
+    color: #8da0eb; /* Highlight text color on hover */
+     /* Underline on hover */
+  }
+  
